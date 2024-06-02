@@ -1,7 +1,3 @@
-/**
- * Student id (22361553)
- * Name (Samarth Sail)
- */ 
 import javax.swing.JOptionPane;
 import java.lang.Math;
 public class InfixToPostfix_PostfixSolver {
