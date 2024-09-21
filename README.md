@@ -4,13 +4,19 @@ This program reads a numerical infix expression from the user, converts it to a 
 
 ## Overview
 
+### Features
+This project demonstrates:
+-  efficent use of the stack data structure concept
+-  Stringbuilder for efficient string inputs
+-  Input Validation and error handling to prevent invalid expressions from being processed
+-  JOptionPane for GUI 
+
+
 ### Infix Expression
 An infix expression is of the form `<operand> <operator> <operand>`. For example: 3 + (5 - 2) * 8
  
-
 ### Postfix Expression
 A postfix expression is of the form `<operand> <operand> <operator>`, where the operator follows the operands. For example: 3 (4 2 *) +
-
 
 ## General Notes
 - **Valid Characters**: The program only considers single digits (0-9) and the operators +, -, *, /, ^, (, ).
